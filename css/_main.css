@@ -1,14 +1,14 @@
 body {
      background-image: url('../bg/v567-adj-20-doodles.jpg');
 
-     background-size: cover; /* чтобы картинка масштабировалась по размеру экрана */
-     background-position: center; /* центрируем картинку */
-     background-repeat: no-repeat; /* чтобы картинка не повторялась */
-     background-attachment: fixed; /* фон фиксирован при прокрутке */
+     background-size: cover;
+     background-position: center; 
+     background-repeat: no-repeat; 
+     background-attachment: fixed; 
 }
 
 .container {
   max-width: 730px;
-  margin: 0 auto;              /* Центрируем контейнер по горизонтали */
-  padding: 20px;               /* Отступы внутри контейнера */
+  margin: 0 auto;             
+  padding: 20px;              
 }
