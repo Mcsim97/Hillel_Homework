@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>My favorite cat</title>
 </head>
 <body>
-<h1>This is my favorite cat, Bulka!</h1>
-<img src="photo/photo_2025-05-18_14-20-49.jpg" alt="my favorite cat, Bonya" width="300">
-<ul>
-    <li>Name: Bulka</li>
-    <li>Domestic: House</li>
-    <li>Age: 2 years old</li>
-    <li>Favorite activities: playing with a toy mouse, eating canned fish, sleeping on the windowsill</li>
-</ul>
-
+<div class="container">
+  <section class="info_wrapp">
+    <h1>This is my favorite cat, Bulka!</h1>
+    <img src="photo/photo_2025-05-18_14-20-49.jpg" alt="my favorite cat, Bonya" width="300">
+    <div class="info_descr">
+      <ul class="list_item">
+        <li>Name: Bulka</li>
+        <li>Domestic: House</li>
+        <li>Age: 2 years old</li>
+        <li>Favorite activities: playing with a toy mouse, eating canned fish, sleeping on the windowsill</li>
+      </ul>
+    </div>
+    
  <nav>
-    <a href="pages/pagescontact.html" target="_blank">Contact</a> |
-    <a href="pages/pagesgallery.html" target="_blank">Gallery</a>
+    <button class="button_ button_main"><a href="pages/pagescontact.html" target="_blank">Contact</a></button><!-- класс и модификатор -->
+    <button class="button_ button_main"><a href="pages/pagesgallery.html" target="_blank">Gallery</a></button><!-- класс и модификатор -->
   </nav>
+  </section>
+</div>
 </body>
 </html>
